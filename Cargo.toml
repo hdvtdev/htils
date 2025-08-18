@@ -1,0 +1,13 @@
+[package]
+name = "htils"
+version = "0.1.0"
+edition = "2024"
+authors = ["Hadvart hadvart@hdvtdev.ru"]
+description = "A tiny crate with few useful? macros."
+license = "MIT"
+repository = "https://github.com/hdvtdev/htils"
+homepage = "https://github.com/hdvtdev/htils"
+readme = "README.md"
+keywords = ["utility"]
+
+[dependencies]
