@@ -1,6 +1,6 @@
 [package]
 name = "htils"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2024"
 authors = ["Hadvart hadvart@hdvtdev.ru"]
 description = "A tiny crate with few useful? macros."

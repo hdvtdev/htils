@@ -25,3 +25,27 @@ macro_rules! debug {
         }
     }
 }
+
+#[macro_export]
+macro_rules! ifsome {
+    ($option:expr, |$value:ident| $body:expr) => {
+        if let Some($value) = $option {
+            $body;
+        }
+    };
+
+    ($option:expr, $body:expr) => {
+        if let Some(_) = $option {
+            $body;
+        }
+    };
+}
+
+#[macro_export]
+macro_rules! ifnone {
+    ($option:expr, $body:expr) => {
+        if let None = $option {
+            $body;
+        }
+    };
+}
